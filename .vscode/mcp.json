@@ -1,0 +1,17 @@
+{
+	"servers": {
+		"GitFlowMCP": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+                "--directory",
+                "/Users/chris/Documents/GitFlowMCP",
+                "run",
+				"mcp",
+				"run",
+				"main.py"
+			]
+		}
+	},
+	"inputs": []
+}
