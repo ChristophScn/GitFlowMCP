@@ -7,10 +7,11 @@
                 "--directory",
                 "/Users/chris/Documents/GitFlowMCP",
                 "run",
-				"mcp",
-				"run",
-				"main.py"
-			]
+				"gitflowmcp"
+			],
+			"env": {
+				"DIRECTORY": "${workspaceFolder}",
+			},
 		}
 	},
 	"inputs": []
